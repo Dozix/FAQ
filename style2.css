@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./assets/images/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(275, 100%, 97%);
+  font-family: "Work Sans", sans-serif;
+}
+img {
+  align-content: space-between;
+}
+p {
+  font-size: 16px;
+  color: hsl(292, 16%, 49%);
+  font-weight: 400;
+  margin-top: 20px;
+  display: none;
+}
+h1 {
+  margin-left: 20px;
+  font-weight: 700;
+}
+h4 {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+main {
+  border: 0px solid;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 200px auto;
+  padding: 20px;
+  width: 600px;
+  height: auto;
+}
+div {
+  align-items: center;
+}
+.section1 {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+section {
+  margin-top: 40px;
+}
+span {
+  float: right;
+  margin-top: -27px;
+}
+section:link {
+  text-decoration: underline;
+}
+section:visited {
+  color: aqua;
+}
+section:hover {
+  color: purple;
+  cursor: pointer;
+}
+section:active {
+  color: cadetblue;
+}
+/* .open {
+  display: block;
+} */
